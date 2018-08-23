@@ -9,5 +9,5 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Test Stuff
-        command: echo PR: $CIRCLE_PULL_REQUEST , Branch: CIRCLE_BRANCH
+          name: Test Stuff
+          command: echo PR: $CIRCLE_PULL_REQUEST , Branch: CIRCLE_BRANCH
